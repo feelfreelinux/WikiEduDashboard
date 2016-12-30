@@ -198,6 +198,7 @@ en:
     organizers: Organizers
     organizer_added: '%{user} is now an organizer of the "%{title}" campaign'
     organizer_removed: '%{user} has been removed as an organizer of the "%{title}" campaign'
+    programs: '%{title} Programs'
     program_template: Program Template
     program_template_tooltip: >
       When an organizer creates a program in this campaign,
@@ -227,7 +228,6 @@ en:
     cancel: 'Cancel'
     character_doc: The sum of characters added to mainspace articles by the course's students during the course term
     campaigns: 'Campaigns: '
-    campaign_courses: '%{title} Courses'
     confirm_course_deletion: Are you sure you want to delete the course titled %{title}? If so, type the title of the course to proceed.
     confirm_course_deletion_failed: '"%{title}" is not the title of this course. The course has not been deleted.'
     course_dates_calendar_instructions: >
@@ -297,15 +297,7 @@ en:
       user_exists: "Sorry, %{username} is not an existing user."
       invalid_language_or_project: Invalid language/project
     expected_students: Expected Students
-<<<<<<< e3fa0dbc6623ce84c932f5b697e3f27b629bf9ce
-<<<<<<< 3cb858fef86b28a38e56296eddd53f4df1292640
-    expected_students_doc: Number of expected students count
-=======
     expected_students_doc: Expected students count
->>>>>>> Unsubmitted data clean-up
-=======
-    expected_students_doc: Expected students count
->>>>>>> Update en.yml
     gradeables_none: This course has no gradeable assignments.
     instructor:
       one: Instructor
@@ -343,15 +335,8 @@ en:
       your timeline, submit it for approval by Wiki Ed staff. Once approved, you
       will be given an enrollment URL that students can use to join the course.
       (You'll still be able to make edits later.)
-<<<<<<< e3fa0dbc6623ce84c932f5b697e3f27b629bf9ce
-<<<<<<< 3cb858fef86b28a38e56296eddd53f4df1292640
-    instructor_doc: The name of first instructor
-=======
     instructor_doc: The name of the first instructor
->>>>>>> Unsubmitted data clean-up
-=======
-    instructor_doc: The name of the first instructor
->>>>>>> Update en.yml
+    revisions_doc: The number of edits in the past %{timeframe} days
     revisions_none: This course has no recent Wikipedia editing activity.
     school: School
     start: Start
@@ -415,7 +400,6 @@ en:
     cancel: Cancel
     courses: Programs
     campaigns: 'Campaigns: '
-    campaign_courses: '%{title} Programs'
     creator:
       checking_for_uniqueness: This program is being checked for uniqueness.
       clone_previous: Clone Previous Program
